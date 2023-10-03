@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito|Lacquer");
+body {
+  margin-left: 1em; margin-right: 1em; margin-top: 3em;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+@import url("https://fonts.googleapis.com/css?family=Nunito|Lacquer");
+
+html {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 0.9rem;
+  background-color: #ffffff;
+}
+
+
+body,
+button,
+input {
+  font-family: Nunito;
+}
+
+* {
+  box-sizing: border-box;
+  transition: 0.4s ease all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: PX;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+.links ul.active {
+  background-color:  #4CAF50;;
+  color: white;
+}
+.navbar {
+  background: #ffffff;
+  color: #000000;
+  padding: 15px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo {
+  cursor: pointer;
+   font-weight: bold;  font-size: 20px;
+}
+.logo:hover{color:  #4CAF50;;
+}
+.navbar ul.links {
+  margin-left: auto;
+  margin-right: 200px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: 0.4s ease all, 0s ease background;
+}
+.navbar ul.links li {
+  /* text-transform: uppercase; */
+  padding: 0 30px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease all, 0s ease margin;
+}
+.navbar ul.links li a {
+  text-decoration: none;
+  color: #000000;
+}
+.navbar ul.links li:hover {
+  background:  #4CAF50;;
+  cursor: pointer;
+}
+.navbar ul.links li:hover a {
+  color: #080808;
+}
+/* 
+button {
+  background: #ffc600;
+  outline: none;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 25px;
+  border: 1px solid #e6b200;
+  letter-spacing: 1px;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: white;
+  background: #222222;
+  border-color: black;
+} */
+
+.navbar.hover {
+  cursor: pointer;
+
+  color:  #4CAF50;;
+
+}
+
+/* .content {
+  background: url("https://images.unsplash.com/photo-1563733758230-a5d441824696?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat;
+  background-size: cover;
+  height: calc(100vh - 65px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+} */
+.content h2 {
+  color:  #4CAF50;;
+}
+
+.navbar.sticky {
+  position: fixed;
+  z-index: 40;
+}
+.navbar.sticky ~ main {
+  position: relative;
+  z-index: 20;
+  top: 65px;
+}
+
+/* section {
+  background: #000;
+  color: #ffc600;
+  padding: 20px;
+  font-family: Lacquer;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+} */
+
+@media screen and (max-width: 750px) {
+  .navbar .right {
+    height: 0;
+    overflow: hidden;
+  }
+
+  .toggle {
+    position: absolute;
+    top: 32.5px;
+    right: 20px;
+    z-index: 99;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .toggle > * {
+    width: 80%;
+    height: 2px;
+    background: #000000;
+    margin: 3px 0;
+  }
+
+  .navbar.collapsed .toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+  }
+  .navbar.collapsed .toggle .line2 {
+    opacity: 0;
+  }
+  .navbar.collapsed .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  .navbar.collapsed .logo {
+    position: absolute;
+    z-index: 44;
+  }
+
+  .navbar .links {
+    position: fixed;
+    background: #080808;
+    z-index: 40;
+    top: 0;
+    left: -100%;
+    flex-direction: column;
+    width: 45vw;
+    height: 100vh;
+  }
+  .navbar .links li:first-child {
+    margin-top: 80px;
+  }
+
+  .navbar.collapsed .links {
+    left: 0;
+  }
+  .navbar.collapsed .links a {
+    color: #fff;
+  }
+  .navbar.collapsed .links li {
+    width: 100%;
+  }
+  .navbar.collapsed .links li:hover a {
+    color: #080808;
+  }
+
+  .navbar.collapsed .right {
+    position: fixed;
+    width: 45vw;
+    text-align: center;
+    height: auto;
+    bottom: 40px;
+    left: 22.5vw;
+    transform: translateX(-50%);
+    z-index: 45;
+  }
+
+  .navbar.collapsed ~ main {
+    filter: blur(1px);
+    opacity: 0.8;
+  }
+
+  .navbar.sticky {
+    position: fixed;
+    z-index: 40;
+  }
+}
+
+
+
+/* Sliding Hero image */
+#section {
+  width: 100%;
+  height: 550px;
+  background: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+.slide-show-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+/* CSS Styles in common for all slides */
+.wrapper-one,
+.wrapper-two,
+.wrapper-three, 
+.wrapper-four {
+   background-color: linear-gradient(rgba(53, 30, 30, 0.5), rgba(94, 55, 55, 0.5));
+  /* background-image: linear-gradient(rgba(53, 30, 30, 0.5), rgba(94, 55, 55, 0.5)); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* CSS Styles for each slide */
+/* Just add the image as background attribute and add some animation */
+
+
+.wrapper-one {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/foodprocess3.jpg);
+}
+
+.wrapper-two {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/circulareconomy2.jpg);
+  animation: slideTwoAnim 20s infinite;
+}
+
+.wrapper-three {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/food3.jpg);
+  animation: slideThreeAnim 20s infinite;
+}
+
+.wrapper-four {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/food4.jpg);
+animation: slideFourAnim 15s infinite;
+}
+  /* Styles for the text */
+  .wrapper-text {
+    font: 700 40px/1.4 Roboto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  /* Animations */
+  @keyframes slideTwoAnim {
+      0%{opacity:0;}
+      17%{opacity:0;}
+      33%{opacity:1;}
+      50%{opacity:1;}
+      67%{opacity:0;}
+      100%{opacity:0;}
+  }
+  
+  @keyframes slideThreeAnim {
+      0%{opacity:0;}
+      50%{opacity:0;}
+      67%{opacity:1;}
+      83%{opacity:1;}
+      100%{opacity:0;}
+  }
+  @keyframes slideFourAnim {
+    0%{opacity:0;}
+    40%{opacity:0;}
+    55%{opacity:1;}
+    83%{opacity:1;}
+    100%{opacity:0;}
+}
+
+  .button {
+    background-color: #4CAF50;
+    border-radius: 50px;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:relative;
+    transition:800ms ease all;
+  } 
+
+
+  
+  .button:hover{
+    background:#fff;
+    color:#4CAF50;
+  }
+  .button a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    background: #fff;
+    color: #000;
+    /* border-radius: 4rem; */
+   
+  }
+
+  .button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #4CAF50;
+    transition:400ms ease all;
+  }
+
+
+  .hero-text {font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  } 
+
+	
+	

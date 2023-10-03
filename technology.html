@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="header.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <link href="technology.css" rel="stylesheet">
+    <link rel="icon" href="images/Group 2221.png">
+    <title>Our technologies</title>
+</head>
+<body>
+<header>
+  
+  
+
+  <div class="navbar" >
+	
+    <div class="logo">
+      <a href="index.html">  <i> <img src="img/Group 2221.png" width="100" height="100"></i></a>
+          
+    </div>
+
+    
+    <p class="logo"> SFSE Research
+      <br> </p>
+      
+    
+    <div class="logo">
+      <img src="images/lablogo3.jpg" width="20" height="50"> 
+           
+     </div>
+
+       <p> Sustainable Food System 
+        <br> Engineering </p>
+        
+    
+    
+    <ul class="links">
+      <li class="active"><a href="index.html">About</a></li>
+      <li><a href="Researcharea.html">Research </a></li>
+      <li><a href="Team1.html">Team</a></li>
+      <li><a href="Publications.html">Publications</a></li>
+      <li><a href="technology.html">Technologies</a></li>
+      <li><a href="/blog/blog1.html">News/Blogs</a></li>
+      <li><a href="Social.html">Social</a></li>
+     
+    </ul>
+    
+    
+    <div class="right" style=" margin-right: 1em;">
+      <p>Department of Bioresource  Engineering, <br>
+       McGill University</p>
+    </div>
+    
+    <div class="toggle">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    
+    
+  </div>
+  
+  
+  
+  <main>
+    
+ 
+    
+  
+  </main>
+<script>
+
+const navbar = document.querySelector(".navbar");
+
+navbar.querySelector(".toggle").addEventListener("click", () => {
+  navbar.classList.toggle("collapsed");
+});
+
+window.addEventListener("scroll", e => {
+  let windowY = window.pageYOffset;
+
+  let navbarHeight = document.querySelector(".navbar").offsetHeight;
+
+  if (windowY > navbarHeight) navbar.classList.add("sticky");else
+  navbar.classList.remove("sticky");
+});
+
+</script>
+
+
+ 
+</header>
+
+
+
+
+
+<br>
+
+
+</header>
+    
+<br>
+
+<div> <h1 style="text-align:center">  <strong > Our technological solutions </strong>
+  <p style="font-size: 20px;"> At SFSE we leverage model-based approaches and digital innovations to drive food systems towards sustainability & resilience</p>
+  
+
+              </h1>
+
+              <p style="font-size: 25px;text-align: center; margin-bottom: -em;"> Some of our model based approaches include</p>
+
+<section class="body1">
+
+    <div class="container-approach">
+      <div class="card-approach">
+        <div class="face face1">
+          <div class="content-approach">
+            <img class= "img_2" src="images/scenario design.jpg">
+            <h3>Scenario Design </h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content-approach">
+            <p> We apply scenario design analysis and system thinking approach to construct potential future food Systems. 
+              In this we enable decision explore possible food system futures and design policies to build resilience
+
+            </p>
+        
+          </div>
+        </div>
+      </div>
+      <div class="card-approach">
+        <div class="face face1">
+          <div class="content-approach">
+            <img class= "img_2" src="images/multicriteria.jpg">
+            <h3>Decision Analysis</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content-approach">
+            <p> Here, we employ multi-criteria decision making tools to support decision making in the context 
+              of clustered criteria which confound stakeholders within the food system
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="card-approach">
+        <div class="face face1">
+          <div class="content-approach">
+            <img class= "img_2" styles="max-height: "src="images/machine learning3.jpg">
+            <h3>Machine Learning</h3>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content-approach">
+            <p> We apply machine learning models to explore the future of food systems using present and historical dataset 
+              from existing national and global datasets </p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="body2">
+
+  <div class="container-approach">
+    <div class="card-approach">
+      <div class="face face1">
+        <div class="content-approach">
+          <img class= "img_2" src="images/digital innovation.jpg">
+          <h3>Digital Innovation</h3>
+        </div>
+      </div>
+      <div class="face face2">
+        <div class="content-approach">
+          <p>We adopt digital technologies to digitize and communicate environmental, nutrition and human health impact  to  consumers and agri-food industries</p>
+         
+        </div>
+      </div>
+    </div>
+    <div class="card-approach">
+      <div class="face face1">
+        <div class="content-approach">
+          <img class= "img_2" src="images/life cycle assessment2.jpg">
+          <h3>Life Cycle Modeling</h3>
+        </div>
+      </div>
+      <div class="face face2">
+        <div class="content-approach">
+          <p> We apply life cycle assessment tools such as OpenLCA and SimaPro, and database such as EcoInvent and Agribalyse to assess the environmental impact of products, processes and services </p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="card-approach">
+      <div class="face face1">
+        <div class="content-approach">
+          <img class= "img_2" src="images/food1.jpg">
+          <h3>Health impact modeling</h3>
+        </div>
+      </div>
+      <div class="face face2">
+        <div class="content-approach">
+          <p> We apply nutrient profile methods and human health impact modelling to communicate and support consumers in making healthy and sustainable food choices</p>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+<br>
+<br><br>
+<div>
+<body class="body3">
+    <h1 style="text-align:center">  <strong > The McGill DISH </strong>
+      <p style="font-size: 20px;"> Try our McGill DISH, a digital tool designed to stimulate you towards healthy and sustainable food choice</p>
+                  </h1>
+    
+    <div class="wrapper_dish1">
+      <div class="product_dish1-img_2">
+        <img src="images/DISH 1.png" height="400" width="450">
+      </div>
+      <div class="product_dish1-info">
+        <div class="product_dish1-text">
+          <h1 class="h1_dish1">McGill DISH</h1>
+          <h2 class="h2_dish1">Dashboard for Improving  Sustainable Healthy food choices</h2>
+          <p class="p_dish1">DISH leverages environmental impact<br> modeling, nutrient profile and health
+            <br> health impact modeling to nudge consumers towards healthy and sustainable 
+            food <br> </p>
+        </div>
+        <div class="product_dish1-price-btn">
+         
+          <button class="button_dish1">TRY NOW</button>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+ 
+
+
+</div>
+<br>
+<br>
+<div>
+ 
+      <h1 style="text-align:center">  <strong > The Circular Bio-StartKit </strong>
+        <p style="font-size: 20px;"> Try our Circular Bio-StartKit, a digital tool designed support decision making in the optimal and feasible upcycling pathways</p>
+                    </h1>
+      
+      <div class="wrapper_dish1">
+        <div class="product_dish1-img_2">
+          <img src="images/DISH 1.png" height="400" width="450">
+        </div>
+        <div class="product_dish1-info">
+          <div class="product_dish1-text">
+            <h1 class="h1_dish1">C-BioStartKit</h1>
+            <h2 class="h2_dish1">Circular BioStartKit for feasible and optimal upcycling of food waste </p></h2>
+            <p class="p_dish1">C-BioStartKit leverages environmental impact<br> modeling, nutrient profile and health
+              <br> health impact modeling to nudge consumers towards healthy and sustainable 
+              food <br> </p>
+          </div>
+          <div class="product_dish1-price-btn">
+           
+            <button class="button_dish1">TRY NOW</button>
+          </div>
+        </div>
+      </div>
+    
+   
+   
+  
+  
+  </div>
+
+
+
+
+<!-- FOOTER OF THE PAGE -->
+
+
+<footer class="footer-dish-distributed">
+  
+  <div class="footer-dish-left">
+
+    <h3><span>Sustainable Food Systems Engineering Lab</span></h3>
+    <p style=" margin-bottom: -1em;"> <strong> Our Technologies  </strong> </p>
+    <p class="footer-dish-links">
+       <a href="#" class="link-1">McGill DISH</a>
+
+      <a href="#">FSS Outlook</a>
+
+      <a href="#">N0-ROADS</a>
+
+      <a href="#">LAPS System</a>
+
+    </p>
+
+    <p class="footer-dish-company-name">All copyrights reserved © SFSE Lab 2023</p>
+  </div>
+
+  <div class="footer-dish-center">
+
+    <div>
+      <i> <img src="images/location-pin.png" alt="" style="height: 1.4em;" ></i>
+      <p><span>2111 Lakeshare Road</span> Sainte-Anne-de-Bellevue, Quebec <br>
+      H9X 1J1</p>
+    </div>
+
+    <div>
+      <i > <img src="images/phone-call.png" alt="" style="height: 1.4em;" ></i>
+      <p>+1.514.398.7776</p>
+    </div>
+
+    <div>
+      <i > <img src="images/email.png" alt="" style="height: 1.5em;" ></i>
+      <p><a href="mailto:support@company.com">ebenezer.kwofie@mgill.ca</a></p>
+    </div>
+
+  </div>
+
+  <div class="footer-dish-right">
+
+    <p class="footer-dish-company-about">
+      <span>About SFSE Lab</span>
+      A group of young scientist focused on leveraging model-based approach, computation and digital innovation to drive a sustainable food system
+    </p>
+
+    <div class="footer-dish-icons">
+
+      <a href="https://scholar.google.com/citations?user=QyKOR3oAAAAJ&hl=en&oi=ao"><i>   <img src="images/google-scholar.svg" alt="" style="height: 1.5em;" ></i></a>
+      <a href="https://www.researchgate.net/lab/Ebenezer-Miezah-Kwofie-Lab"><i class="fa fa-twitter">   <img src="images/ResearchGate_icon_SVG.svg.png" alt=""style="height: 1.5em;" ></i></a>
+      <a href="https://www.linkedin.com/in/sustainable-food-systems-engineering-1b383a262"><i class="fa fa-linkedin">  <img src="images/linkedin.png" alt="" style="height: 1.5em;"></i></a>
+      
+
+    </div>
+
+  </div>
+
+</footer>
+  
+
+
+
+</body>
+</html>

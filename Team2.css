@@ -1,0 +1,299 @@
+
+html {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 15px;
+    background-color: #ffffff;
+  }
+
+
+/* GREEN HEADER FOR TEAM */
+/* GREEN HEADER FOR TEAM */
+  /* RECTANGLE */
+  .rectangle-box {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background: #4CAF50;
+    border-top: 10px solid  rgb(238, 238, 238);
+    border-bottom: 10px solid  rgb(238, 238, 238);
+  }
+  .rectangle-box:before {
+    content: "";
+    display: block;
+    padding-top: 50%;
+  }
+  
+  .rectangle-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family:blackliht;
+  }
+  .rectangle-content div {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .rectangle-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+  }
+  
+
+
+ /* The Principal Investigator   */
+  span.s1 {
+    position: absolute;
+    top: 0;
+    font-size: 15rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #f3f4f5;
+  }
+  
+  span.s2 {
+    font-weight: 800;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 15rem;
+    text-transform: uppercase;
+    color: #e4e8e9;
+  }
+  
+ 
+  /* The card */
+  .card_director {
+    position: relative;
+    height: 620px;
+    width: 1250px;
+    margin: 60px auto;
+    background-color: rgb(238, 238, 238);
+    -webkit-box-shadow: 10px 10px 93px 0px rgba(255, 255, 255, 0);
+    -moz-box-shadow: 10px 10px 93px 0px rgba(255, 250, 250, 0);
+    box-shadow: 10px 10px 93px 0px rgba(255, 255, 255, 0);
+  }
+  
+  /* Image on the left side */
+  .thumbnail_director {
+    float: left;
+    position: relative;
+    left: 30px;
+    top: -50px;
+    height: 500px;
+    width: 530px;
+    -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 60px 0px rgba(250, 250, 250, 0.75);
+    overflow: hidden;
+  }
+  
+  /*object-fit: cover;*/
+  /*object-position: center;*/
+  .img_director.left_director {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Right side of the card */
+  .right_director {
+    margin-left: 590px;
+    margin-right: 20px;
+  }
+  
+  .h1_director {
+    padding-top: 15px;
+    font-size: 1.3rem;
+    color: #4B4B4B;
+    text-align: center;
+  }
+  
+  .author_director {
+    background-color: #9ECAFF;
+    height: 30px;
+    width: 110px;
+    border-radius: 20px;
+  }
+  
+  .author_director > img {
+    padding-top: 5px;
+    margin-left: 10px;
+    float: left;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+  
+  .h2_director {
+    padding-top: 8px;
+    margin-right: 6px;
+    text-align: right;
+    font-size: 0.8rem;
+  }
+  .separator_director {
+    margin-top: 10px;
+    border: 1px solid #C3C3C3;
+  }
+  
+  .p_director {
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 0.95rem;
+    line-height: 150%;
+    color: #4B4B4B;
+  }
+  
+  /* DATE of release*/
+  .h5_director {
+    position: absolute;
+    left: 35px;
+    /* top:350px; */
+    bottom: 45px;
+    font-size: 1rem;
+    color: #4e4e4e;
+  }
+  
+  .h6_director {
+    position: absolute;
+    left: 35px;
+    bottom: 6px;
+    font-size: 1.5rem;
+    color: #000000;
+  }
+  
+
+   .image-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+  #text-postion{padding-top: 15px;
+      padding-left: 35%;
+      font-size: 1.3rem;
+      color: #2c2828;
+  
+  
+  }
+
+
+
+  /* GRADUATE STUDENTS PHD  */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+  }
+  
+  body {
+    background: #ffffff;
+  }
+  
+  .container22 {
+    margin-top: 0px;
+
+   
+  }
+  
+   .img22{
+     border-radius: 50%;
+   }
+  .container22  .team22{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+  }
+
+
+  
+  .container22 .team22 .member22 {
+    width: 455px;
+   
+    margin: 10px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+    padding: 25px;
+  }
+
+    
+  .container22 .team22 .member22 {
+    width: 400px;
+   
+    margin: 10px;
+    background: #f3f4f5;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+    padding: 25px;
+  }
+ .member22 {
+    width: 325px;
+    background: #886767;
+    margin: 10px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+    padding: 25px;
+  }
+
+
+
+  .container22 .team22 .member22 img {
+    width: 150px;
+   
+  }
+  
+  .container22 .team22 .member22 h3 {
+    color: #000000;
+  }
+  
+  .container22 .team22 .member22 span {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .container22 .team22 .member22 p {
+    margin: 15px 0;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+  }
+   
+  .container22 .team22 .member22 .btn a {
+    background: #ddd;
+    display: block;
+    float: right;
+    width: 125px;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #444;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+  }
+  
+  .container22 .team22 .member22 .btn a:hover {
+    background: #5a36dd;
+    color: #fff;
+  }
+  

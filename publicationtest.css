@@ -1,0 +1,40 @@
+/* RECTANGLE */
+.rectangle-box {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background: #4CAF50;
+    border-top: 10px solid  rgb(238, 238, 238);
+    border-bottom: 10px solid  rgb(238, 238, 238);
+  }
+  .rectangle-box:before {
+    content: "";
+    display: block;
+    padding-top: 50%;
+  }
+  
+  .rectangle-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family:blackliht;
+  }
+  .rectangle-content div {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .rectangle-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+  }
+  
+  

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="header.css" rel="stylesheet">
+    <link href="social.css" rel="stylesheet">
+    <!-- <link href="/Version 3.2 - Copy - Copy/prince2.css" rel="stylesheet"> -->
+    <link href="footer.css" rel="stylesheet">
+
+    <title>social</title>
+</head>
+<body>
+
+    <div class="navbar" >
+	
+        <div class="logo">
+          <a href="index.html">  <i> <img src="img/Group 2221.png" width="100" height="100"></i></a>
+              
+        </div>
+    
+        
+        <p class="logo"> SFSE Research
+          <br> </p>
+          
+        
+        <div class="logo">
+          <img src="images/lablogo3.jpg" width="20" height="50"> 
+               
+         </div>
+    
+           <p> Sustainable Food System 
+            <br> Engineering </p>
+            
+        
+        
+        <ul class="links">
+          <li class="active"><a href="index.html">About</a></li>
+          <li><a href="Researcharea.html">Research </a></li>
+          <li><a href="Team1.html">Team</a></li>
+          <li><a href="Publications.html">Publications</a></li>
+          <li><a href="technology.html">Technologies</a></li>
+          <li><a href="/blog/blog1.html">News/Blogs</a></li>
+          <li><a href="Social.html">Social</a></li>
+         
+         
+        </ul>
+        
+        
+        <div class="right" style=" margin-right: 1em;">
+          <p>Department of Bioresource  Engineering, <br>
+           McGill University</p>
+        </div>
+        
+        <div class="toggle">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        
+        
+      </div>
+      
+      
+      
+      <main>
+        
+     
+        
+      
+      </main>
+    <script>
+    
+    const navbar = document.querySelector(".navbar");
+    
+    navbar.querySelector(".toggle").addEventListener("click", () => {
+      navbar.classList.toggle("collapsed");
+    });
+    
+    window.addEventListener("scroll", e => {
+      let windowY = window.pageYOffset;
+    
+      let navbarHeight = document.querySelector(".navbar").offsetHeight;
+    
+      if (windowY > navbarHeight) navbar.classList.add("sticky");else
+      navbar.classList.remove("sticky");
+    });
+    
+    </script>
+     
+     <br>
+     <section id="section_s">
+       <div class="slide-show-container_s"  id="box-overhero">
+         <div class="wrapper-1">
+           <div class="wrapper-text"> 
+               <div class="hero-text_1"> <h1 style="font-size:40px; ">Vist to Niagara Falls </h1>
+                 <p style="font-size:25px;">Field trip to Niagara Falls</p>
+                 <!-- <button class="button">Learn More</button> -->
+                 <!-- <a href="Industrial LCSA.html" class="button"> Learn more</a> -->
+     
+               </div>
+             </div>
+         </div>
+             
+         <div class="wrapper-2">
+           <div class="wrapper-text">
+             <div class="hero-text_1"> <h1 style="font-size:40px;">ASABE 2022, Housten Texas </h1>
+               <p style="font-size:25px;"> SFSE Team at the Annual ASABE conference</p>
+               <!-- <button class="button">Learn More</button> -->
+               <!-- <a href="Circular Economy.html" class="button"> Learn more</a> -->
+             </div>
+           </div>
+         </div> 
+         
+         <div class="wrapper-3">
+           <div class="wrapper-text">
+             <div class="hero-text_1"> <h1 style="font-size:40px">NABEC 2023, @Guelph </h1>
+               <p style="font-size:25px">SFSE team with University of Guelph Students</p>
+               <!-- <button class="button">Learn More</button> -->
+               <!-- <a href="Nutrition Programing.html" class="button"> Learn more</a> -->
+             </div>
+           </div>
+         </div> 
+         
+      
+       </div>
+     </section>
+     
+     <br>
+     <br>
+
+
+
+     <h1 class="h1_project" style="text-align: center;" > Field Trips, Birthday celebrations and Socialization</h1>
+
+     <div class="container">
+      <div class="image">
+       
+        <section>
+         
+        
+        
+         
+         
+          <div class="slideshow-container_project">
+            <!-- <h3 style="margin-left:30%"> Nutrition Sensivtive Project in Zambia</h3> -->
+              <div class="mySlides1">
+                  <img src="images/social_birthday.png" style="width:100%">
+                  <div class="text_project; box22">Birthday celebration with lunch @Thai Express, Kirkland-West Island</div>
+              </div>
+          
+              <div class="mySlides1">
+                  <img src="images/nagara falls_3.jpg" style="width:100%">
+                  <div class="text_project; box22 ">Field trip to Niagara falls</div>
+              </div>
+          
+              <div class="mySlides1">
+                  <img src="images/social 3.jpeg" style="width:100%;">
+                  <div class="text_project; box22">Local processed foods consumed in Ibale</div>
+              </div>
+
+              <!-- <div class="mySlides1">
+                <img src="images/social5.png" style="width:100%;">
+                <div class="text_project ">Lunch celebration for a publication</div>
+            </div> -->
+
+
+              <div class="mySlides1">
+                <img src="images/guelph.jpg" style="width:100%;">
+                <div class="text_project; box22">Field trip to University of Guelph campus</div>
+            </div>
+            <div class="mySlides1">
+              <img src="images/social11.png" style="width:100%;">
+              <div class="text_project; box22 ">Lunch celebration for a publication @Thia Taste, Rogers-Arkansas</div>
+          </div>
+         
+            <!-- <div style="text-align:center">
+              <span class="dot_project" onclick="currentSlide(1)"></span> 
+              <span class="dot_project" onclick="currentSlide(2)"></span> 
+              <span class="dot_project" onclick="currentSlide(3)"></span> 
+            </div> -->
+          
+            <a class="prev_project" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next_project" onclick="plusSlides(1, 0)">&#10095;</a>
+          </div>
+          
+      </div>
+
+
+    
+
+
+
+    </section>
+    <br><br>
+    
+    
+    <script>
+    let slideIndex = [1,1];
+    let slideId = ["mySlides1", "mySlides2", "mySlides3"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+    
+    function plusSlides(n, no) {
+      showSlides(slideIndex[no] += n, no);
+    }
+    
+    function showSlides(n, no) {
+      let i;
+      let x = document.getElementsByClassName(slideId[no]);
+      if (n > x.length) {slideIndex[no] = 1}    
+      if (n < 1) {slideIndex[no] = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+    //   for (i = 0; i < dots.length; i++) {
+    //   dots[i].className = dots[i].className.replace(" active", "");
+    // }
+      x[slideIndex[no]-1].style.display = "block";  
+    }
+    </script>
+    
+     
+
+
+
+
+
+
+
+      <div class="text">
+         At SFSE, we believe that a complete graduate experience should include exploring your environment. 
+         Asuch, the research rgo
+      </div>
+    </div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+<hr>
+
+<h1 class="h1_project" style="text-align: center;" > Training, Workshops and Community Engagement</h1>
+
+
+ <br>
+ <br>
+
+  <section class="body2"> 
+   
+    
+    <div class="image-right">
+      <img class="image22"src="images/community.jpg" alt="Human Rights Logo"/>
+      <div>
+        <p class="text">Community Training and education on sustainable healthy eating @ the Black/African month celebration</p>
+      
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="image-left">
+      <img class="image22" src="images/labtraining.png" alt="Human Rights Logo"/>
+      <div>
+        <p class="text">Social LCA Training lead by Aubin Payne</p>
+        
+      </div>
+    </div>
+
+    <br>
+    <br>
+   
+    <div class="image-right">
+      <img class="image22" src="images/Proposal writing training.png" alt="Human Rights Logo"/>
+      <div>
+        <p class="text">Workshop and training session on Proposal writing and Grant Application led by the P, Ebenezer Kwofie</p>
+      
+      </div>
+    </div>
+  </section>
+
+<hr>
+
+<!-- Social media connection -->
+<h1 style="text-align: center;">Do you want to connect with us?</h1>
+<h3 style="text-align: center;"> Follow our different social media handle to get the lastest research, blog and scientific innovations from 
+  our lab.</h3>
+
+
+<br>
+
+
+<div class="container22">
+  
+  <div class="team22">
+    <div class="member22">
+      <a href="https://scholar.google.com/citations?user=QyKOR3oAAAAJ&hl=en&oi=ao"><i>   <img src="images/ResearchGate_icon_SVG.svg.png" alt="" ></i></a>
+      <h3>Here, you can find our latest scientific publicaiton, book chapters and short communications </h3>
+         <div>   
+       
+            
+      </div>
+    </div>
+    <div class="member22">
+      <a href="https://scholar.google.com/citations?user=QyKOR3oAAAAJ&hl=en&oi=ao"><i>   <img src="images/google-scholar.svg" alt="" ></i></a>
+      <h3>Here, you can find our latest scientific publicaiton, book chapters and short communications</h3>
+   
+      <div>   
+       
+            
+      </div>
+    </div>
+    <div class="member22">
+      <a href="https://scholar.google.com/citations?user=QyKOR3oAAAAJ&hl=en&oi=ao"><i>   <img src="images/linkedin.png" alt="" ></i></a>
+      <h3>Here, you can find our latest scientific publicaiton, book chapters and short communications</h3>
+   
+      <div>   
+       
+            
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+     
+
+     <br>
+     <div class="box_space">
+     </div>
+     
+     
+     
+
+     <br>
+     
+     <br>
+     
+     
+       
+     <div class="logo">
+       <img src="images/lablogo3.jpg" width="100" height="100"> 
+            
+      </div>
+     
+     
+     
+     
+     <!-- FOOTER OF THE PAGE -->
+     
+     <footer class="footer-dish-distributed">
+       
+       <div class="footer-dish-left">
+     
+         <h3><span>Sustainable Food Systems Engineering Lab</span></h3>
+         <p style=" margin-bottom: -1em;"> <strong> Our Technologies  </strong> </p>
+         <p class="footer-dish-links">
+            <a href="#" class="link-1">McGill DISH</a>
+     
+           <a href="#">FSS Outlook</a>
+     
+           <a href="#">N0-ROADS</a>
+     
+           <a href="#">LAPS System</a>
+     
+         </p>
+     
+         <p class="footer-dish-company-name">All copyrights reserved © SFSE Lab 2023</p>
+       </div>
+     
+       <div class="footer-dish-center">
+     
+         <div>
+           <i> <img src="images/location-pin.png" alt="" style="height: 1.4em;" ></i>
+           <p><span>2111 Lakeshare Road</span> Sainte-Anne-de-Bellevue, Quebec <br>
+           H9X 1J1</p>
+         </div>
+     
+         <div>
+           <i > <img src="images/phone-call.png" alt="" style="height: 1.4em;" ></i>
+           <p>+1.514.398.7776</p>
+         </div>
+     
+         <div>
+           <i > <img src="images/email.png" alt="" style="height: 1.5em;" ></i>
+           <p><a href="mailto:support@company.com">ebenezer.kwofie@mgill.ca</a></p>
+         </div>
+     
+       </div>
+     
+       <div class="footer-dish-right">
+     
+         <p class="footer-dish-company-about">
+           <span>About SFSE Lab</span>
+           A group of young scientist focused on leveraging model-based approach, computation and digital innovation to drive a sustainable food system
+         </p>
+     
+         <div class="footer-dish-icons">
+     
+           <a href="https://scholar.google.com/citations?user=QyKOR3oAAAAJ&hl=en&oi=ao"><i>   <img src="images/google-scholar.svg" alt="" style="height: 1.5em;" ></i></a>
+           <a href="https://www.researchgate.net/lab/Ebenezer-Miezah-Kwofie-Lab"><i class="fa fa-twitter">   <img src="images/ResearchGate_icon_SVG.svg.png" alt=""style="height: 1.5em;" ></i></a>
+           <a href="https://www.linkedin.com/in/sustainable-food-systems-engineering-1b383a262"><i class="fa fa-linkedin">  <img src="images/linkedin.png" alt="" style="height: 1.5em;"></i></a>
+           
+     
+         </div>
+     
+       </div>
+     
+     </footer>
+     
+     
+     
+        
+
+</body>
+</html>

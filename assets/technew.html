@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="header.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <link href="technology.css" rel="stylesheet">
+    <link rel="icon" href="images/Group 2221.png">
+    <title>Our technologies</title>
+</head>
+<body>
+<header>
+  
+  
+
+  <div class="navbar" >
+	
+    <div class="logo">
+      <a href="index.html">  <i> <img src="img/Group 2221.png" width="100" height="100"></i></a>
+          
+    </div>
+
+    
+    <p class="logo"> SFSE Research
+      <br> </p>
+      
+    
+    <div class="logo">
+      <img src="images/lablogo3.jpg" width="20" height="50"> 
+           
+     </div>
+
+       <p> Sustainable Food System 
+        <br> Engineering </p>
+        
+    
+    
+    <ul class="links">
+      <li class="active"><a href="index.html">About</a></li>
+      <li><a href="Researcharea.html">Research </a></li>
+      <li><a href="Team1.html">Team</a></li>
+      <li><a href="Publications.html">Publications</a></li>
+      <li><a href="technology.html">Technologies</a></li>
+      <li><a href="Page1.html">News/Blogs</a></li>
+      <li><a href="Social.html">Social</a></li>
+     
+    </ul>
+    
+    
+    <div class="right" style=" margin-right: 1em;">
+      <p>Department of Bioresource  Engineering, <br>
+       McGill University</p>
+    </div>
+    
+    <div class="toggle">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    
+    
+  </div>
+  
+  
+  
+  <main>
+    
+ 
+    
+  
+  </main>
+<script>
+
+const navbar = document.querySelector(".navbar");
+
+navbar.querySelector(".toggle").addEventListener("click", () => {
+  navbar.classList.toggle("collapsed");
+});
+
+window.addEventListener("scroll", e => {
+  let windowY = window.pageYOffset;
+
+  let navbarHeight = document.querySelector(".navbar").offsetHeight;
+
+  if (windowY > navbarHeight) navbar.classList.add("sticky");else
+  navbar.classList.remove("sticky");
+});
+
+</script>
