@@ -113,12 +113,12 @@
   height: 100%;
   grid-column: 2;
   background-color: #c1b7b4;
-  background-image: url('images/food2.jpg');
+  background-image: url('images/Derrick2.jpg');
   background-size: cover;
   background-position: center center;
 }
 
-.card_project2 .img_project-container2 {
+/* .card_project2 .img_project-container2 {
   width: 300px;
   height: 100%;
   grid-column: 2;
@@ -126,16 +126,16 @@
   background-image: url('images/food2.jpg');
   background-size: cover;
   background-position: center center;
-}
-.card_project2 .img_project-container3 {
+} */
+/* .card_project2 .img_project-container3 {
   width: 300px;
   height: 100%;
   grid-column: 2;
   background-color: #c1b7b4;
-  background-image: url('images/food2.jpg');
+  background-image: url('images/feed\ additive.png');
   background-size: cover;
   background-position: center center;
-}
+} */
 
 
 
@@ -145,7 +145,7 @@
   height: 100%;
   grid-column: 2;
   background-color: #c1b7b4;
-  background-image: url('images/food3.jpg');
+  background-image: url('images/feed\ additive.png');
   background-size: cover;
   background-position: center center;
 }
@@ -155,7 +155,7 @@
   height: 100%;
   grid-column: 2;
   background-color: #c1b7b4;
-  background-image: url('images/food4.jpg');
+  background-image: url('images/feed\ additive.png');
   background-size: cover;
   background-position: center center;
 }
