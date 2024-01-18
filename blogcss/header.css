@@ -70,7 +70,7 @@ ul {
 .navbar ul.links li {
   /* text-transform: uppercase; */
   padding: 0 30px;
-  height: 65px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,11 +129,15 @@ button:hover {
 .navbar.sticky {
   position: fixed;
   z-index: 40;
+  top:0px;
+  padding-top: 4rem;
+  padding-bottom:3rem;
 }
 .navbar.sticky ~ main {
   position: relative;
   z-index: 20;
   top: 65px;
+ 
 }
 
 /* section {

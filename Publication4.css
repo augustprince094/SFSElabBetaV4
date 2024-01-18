@@ -15,14 +15,13 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 2rem;
+  /* padding: 2rem; */
   background-color: #ffffff;
   /* font-family: "Inter", sans-serif; */
 }
 @media (max-width: 70em) {
   body {
-    padding: 5rem;
-  }
+    /* padding: 5rem; */}
 }
 
 .grid {
