@@ -73,7 +73,7 @@ html {
   /* The card */
   .card_director {
     position: relative;
-    height: 620px;
+    height: 580px;
     width: 1250px;
     margin: 60px auto;
     background-color: rgb(238, 238, 238);
@@ -161,8 +161,9 @@ html {
   .h5_director {
     position: absolute;
     left: 35px;
+    margin-top: -;
     /* top:350px; */
-    bottom: 45px;
+    bottom: 85px;
     font-size: 1rem;
     color: #4e4e4e;
   }
@@ -170,7 +171,7 @@ html {
   .h6_director {
     position: absolute;
     left: 35px;
-    bottom: 6px;
+    bottom: 50px;
     font-size: 1.5rem;
     color: #000000;
   }
