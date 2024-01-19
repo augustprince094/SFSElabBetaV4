@@ -1,0 +1,22 @@
+
+#blog-contianer{max-width: 1200px; height:100%;   background-color:rgb(238, 238, 238);
+    margin:auto;  align-self: center;}
+    
+    #font-date {color: #008080; margin-left: 20px;
+    }
+    .article-font{ margin-left: 20px;   padding-top: 2px;
+        padding-left: 0px;
+    
+    
+    }
+    .button-blog{ background-color: #4CAF50;
+        border: none; height: 2em; 
+        text-color: white;
+        padding: 5px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;  }
+        

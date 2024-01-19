@@ -39,7 +39,7 @@ html {
   color: white;
   font-size: 30px;
   font-style: italic;
-  font-family:blackliht;
+  /* font-family:blackliht; */
 }
 .rectangle-content div {
   display: table;
@@ -118,6 +118,7 @@ header{
 .container-flex{
   max-width: 70vw;
   margin: 0 auto;
+  gap:6rem;
   display: flex;
   justify-content: space-between;
   margin-bottom: 1em;
@@ -225,7 +226,7 @@ footer a:hover{
     }
     
     .article-recent-main {
-        width: 68%;
+        width:68%;
     }
     
     .article-recent-secondary {
