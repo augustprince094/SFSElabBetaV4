@@ -188,62 +188,75 @@ img {vertical-align: middle;}
 
 
 /* Community engagement */
-
-.body2
-{
-	margin: auto;
-	max-width: 110em;
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px;
 }
 
-.image22
-{
-	max-width: 45%;
-	max-height: 10%;
-	border-radius: 50%;
+
+.grid {
+  width: 100%;
+  height: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.image-left, .image-right
-{
-	margin: 1em 0;
+hr {
+  width: 250px;
+  height: 3px;
+  background-color: #e07e7b;
+  border: 0;
+  margin-bottom: 10px;
 }
 
-@media (min-width: 50em)
-{
-	.image-left, .image-right
-	{
-		display: flex;
-		align-items: center;
-	}
-
-	.image-left img
-	{
-		margin-right: 1em;
-		float: left; /* fallback */
-	}
-
-	.image-right img
-	{
-		order: 1;
-		margin-left: 1em;
-		float: right; /* fallback */
-	}
-	
-	/* clearfix for fallback */
-	.image-left::after,
-	.image-right::after
-	{
-		content: "";
-  	display: block;
-		clear: both;
-	}
+.image-1 {
+  background-image: url('images/blog/community.jpg');
 }
 
-@media (min-width: 50em)
-{
-	.image-left img, .image-right img
-	{
-		flex-shrink: 0;
-	}
+.image-2 {
+  background-image: url('images/Proposal\ writing\ training.png');
+}
+
+.image-3 {
+  background-image: url('images/labtraining.png');
+}
+
+.image-4 {
+  background-image: url('images/social5.jpg');
+}
+
+
+.labsocial .grid li {
+  height: 500px;
+  padding: 25px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.labsocial .grid li.small {
+  flex-basis: 30%;
+}
+
+.labsocial .grid li.large {
+  flex-basis: 70%;
+}
+
+@media (max-width: 1100px) {
+  .labsocial .grid li.small,
+  .labsocial .grid li.large {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .labsocial .grid li.small,
+  .labsocial .grid li.large {
+    flex-basis: 100%;
+  }
 }
 
 
