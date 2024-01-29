@@ -59,7 +59,7 @@
 
 .container-approach .card-approach .face.face1{
     position: relative;
-    background: rgb(76, 175, 80);
+    background: rgb(76, 175, 80, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,3 +303,6 @@
   .product_dish1-price-btn .button_dish1:hover {
 	background-color: #79b0a1;
   }
+
+
+
